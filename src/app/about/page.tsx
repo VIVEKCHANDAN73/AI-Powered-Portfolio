@@ -5,13 +5,8 @@ import Skills from "@/components/Skills"; // import your existing Skills compone
 export default function AboutCard() {
   return (
     <section className="flex justify-center items-center py-16 bg-black-50">
-      <div className="bg-black-50 rounded-2xl shadow-lg p-8 max-w-3xl flex flex-col md:flex-row items-center gap-8">
-        {/* Profile Image */}
-        <img
-          src="/profile.jpg" // replace with your image path
-          alt="Vivek Chandan"
-          className="w-40 h-40 rounded-full object-cover border-4 border-indigo-500"
-        />
+      <div className="rounded-2xl shadow-lg p-8 max-w-3xl flex flex-col md:flex-row items-center gap-8">
+        
 
         {/* Info */}
         <div className="flex-1">
@@ -29,6 +24,12 @@ export default function AboutCard() {
           {/* Render existing Skills component */}
           <Skills />
         </div>
+        {/* Profile Image */}
+        <img
+          src="/profile.jpg" // replace with your image path
+          alt="Vivek Chandan"
+          className="w-40 h-40 rounded-full object-cover"
+        />
       </div>
     </section>
   );

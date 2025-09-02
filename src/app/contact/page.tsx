@@ -8,7 +8,7 @@ export default function Contacts() {
         
         <a
           href="mailto:vivekchandan73@gmail.com"
-          className="flex items-center justify-center gap-2 text-gray-700 hover:text-blue-600 transition"
+          className="flex items-center justify-center gap-2 hover:text-blue-600 transition"
         >
           <FaEnvelope /> vivekchandan73@gmail.com
         </a>
@@ -16,28 +16,28 @@ export default function Contacts() {
         <a
           href="https://www.linkedin.com/in/vivekchandan"
           target="_blank"
-          className="flex items-center justify-center gap-2 text-gray-700 hover:text-blue-600 transition"
+          className="flex items-center justify-center gap-2  hover:text-blue-600 transition"
         >
           <FaLinkedin /> LinkedIn
         </a>
 
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/vivekchandan73"
           target="_blank"
-          className="flex items-center justify-center gap-2 text-gray-700 hover:text-green-900 transition"
+          className="flex items-center justify-center gap-2  hover:text-green-900 transition"
         >
           <FaGithub /> GitHub
         </a>
 
         <a
-          href="https://www.kaggle.com/yourusername"
+          href="https://www.kaggle.com/vivekchandan"
           target="_blank"
-          className="flex items-center justify-center gap-2 text-gray-700 hover:text-purple-600 transition"
+          className="flex items-center justify-center gap-2  hover:text-purple-600 transition"
         >
           <FaKaggle /> Kaggle
         </a>
 
-        <div className="flex items-center justify-center gap-2 text-gray-700">
+        <div className="flex items-center justify-center gap-2 ">
           <FaPhone /> +91-7978609188
         </div>
       </div>
