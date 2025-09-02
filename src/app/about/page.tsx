@@ -2,7 +2,8 @@
 import React from "react";
 import Skills from "@/components/Skills"; // import your existing Skills component
 
-export default function AboutCard() {
+export default async function AboutCard() {
+  await new Promise((resolve) => setTimeout(resolve, 2000)); // 2s delay
   return (
     <section className="flex justify-center items-center py-16 bg-black-50">
       <div className="rounded-2xl shadow-lg p-8 max-w-3xl flex flex-col md:flex-row items-center gap-8">

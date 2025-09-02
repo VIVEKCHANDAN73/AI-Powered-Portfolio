@@ -7,9 +7,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const projects = [
-  { title: "AI Chatbot", desc: "Built with FastAPI + React", image: "/Announcement--5-.svg", link: "/project1" },
-  { title: "Portfolio Website", desc: "Next.js + Tailwind", image: "/project2.png", link: "/" },
-  { title: "Data Pipeline", desc: "Prefect + AWS", image: "/project3.jpg", link: "/project3" },
+  { title: "RAG Chatbot", desc: "Python | FastAPI | Hugging Face Transformers | LangChain | Pinecone | Docker | AWS", image: "/Announcement--5-.svg", link: "/project1" },
+  { title: "Portfolio Website", desc: "React | Next.js | Tailwind CSS", image: "/project2.png", link: "/" },
 ];
 
 export default function ProjectCarousel() {
